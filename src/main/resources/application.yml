@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/oauthsample
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1024780312742-snbvoc0oaccf7gnbipg4ijp8tfccficq.apps.googleusercontent.com
+            client-secret: _z5-m-uDPU64nTCtbqczDtCK
+            scope:
+              - email
+              - profile
